@@ -1,7 +1,3 @@
-
-
-package clienteditor;
-
 /**
  * Form that allows editing of information about one client.
  *

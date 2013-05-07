@@ -1,7 +1,3 @@
-
-
-package clienteditor;
-
 import org.jdesktop.beansbinding.Validator;
 
 /**
