@@ -1,6 +1,6 @@
-#*.class
-
+#The files mentioned below will be ignored in git
 # Package Files #
 *.jar
 *.war
 *.ear
+*.class
