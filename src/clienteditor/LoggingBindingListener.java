@@ -1,3 +1,5 @@
+package clienteditor;
+
 import javax.swing.JLabel;
 import org.jdesktop.beansbinding.AbstractBindingListener;
 import org.jdesktop.beansbinding.Binding;

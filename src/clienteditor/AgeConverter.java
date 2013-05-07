@@ -1,3 +1,7 @@
+
+
+package clienteditor;
+
 import org.jdesktop.beansbinding.Converter;
 
 /**
