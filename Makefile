@@ -1,4 +1,4 @@
-#This is a Maakefile for this project
+#This is a Makefile for this project
 
 src=src/clienteditor
 Target=build/classes
