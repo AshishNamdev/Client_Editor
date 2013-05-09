@@ -2,12 +2,12 @@
 
 src=src/clienteditor
 Target=build/classes
+objects=AgeValidator.class Client.class MaritalStatusConverter.class \
+    EmailValidator.class  RequiredStringValidator.class
 
-Client_Editor	:AgeValidator.class Client.class MaritalStatusConverter.class \
-		 EmailValidator.class  RequiredStringValidator.class
-		 jar cf Client_Editor $(Target)/AgeValidator.class $(Target)/Client.class \
-		 $(Target)/MaritalStatusConverter.class $(Target)/EmailValidator.class \
-		 $(Target)/RequiredStringValidator.class
+
+Client_Editor	:$(objects)
+		 jar cf Client_Editor $(objects)
 
 
 Client.class	: $(src)/Client.java
@@ -26,6 +26,5 @@ RequiredStringValidator.class : $(src)/RequiredStringValidator.java
 			javac -d  $(Target)/.  $(src)/RequiredStringValidator.java
 
 clean	:
-		rm AgeValidator.class Client.class MaritalStatusConverter.class \
-			EmailValidator.class RequiredStringValidator.class
+		rm $(objects)
 
