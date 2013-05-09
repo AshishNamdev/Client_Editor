@@ -26,5 +26,5 @@ RequiredStringValidator.class : $(src)/RequiredStringValidator.java
 			javac -d  $(Target)/.  $(src)/RequiredStringValidator.java
 
 clean	:
-		rm $(objects)
+		rm $(Target)/$(objects)
 
